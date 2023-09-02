@@ -2,7 +2,6 @@
 #retorne su area de la superficie
 
 import math
-
 def cal_area_superficie(radio, altura):
     if radio <= 0 or altura <= 0:
         return "El radio y la altura deben tener valores positivos."
