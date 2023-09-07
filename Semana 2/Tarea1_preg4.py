@@ -1,3 +1,4 @@
+#Pregunta 4
 #Cree una funcion que permita calcular Suma de los enteros positivos d tales que d|n
 
 def suma_div(x):
@@ -7,5 +8,7 @@ def suma_div(x):
             suma += i
     return suma
 
-x = 6
-print(f"La suma de los divisores de: {x} es {suma_div(x)}")
+x = int(input("Ingrese el numero por favor: "))
+
+resultado = suma_div(x)
+print(f"La suma de los divisores de: {x} es {resultado}")
