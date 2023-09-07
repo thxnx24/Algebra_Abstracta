@@ -5,7 +5,6 @@ def sumatoria(ini, fin):
     for i in range (ini, fin + 1):
         suma += i
     return suma
-
 ini = 1
 fin = 5
 
