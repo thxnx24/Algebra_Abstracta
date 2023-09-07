@@ -7,6 +7,6 @@ def sumatoria(ini, fin):
     return suma
 
 ini = 1
-fin = 56
+fin = 5
 
-print(sumatoria(ini, fin))
+print(f"La suma de los numeros entre {ini} y {fin} es {sumatoria(ini, fin)}")
